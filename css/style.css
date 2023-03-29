@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section {
+  display: block;
+}
+
+header,
+footer,
+body {
+  width: 100%;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+#about-me-section,
+#your-choice-section,
+#prog-lag-section,
+#exercises {
+  margin-left: 40px;
+}
+
+.titles {
+  color: #000000;
+  font-family: Rubik, 'Rubik';
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/* Header */
+
+#logo {
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  margin-top: 41px;
+  margin-left: 40px;
+}
+
+#logo span {
+  color: #3E3F43;
+  font-family: Nunito;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 4px;
+  margin-top: 40px;
+  margin-left: 52px;
+}
+
+/* Prologue Section */
+
+#prologue-section {
+  background-color: #F9BDBD;
+  margin-top: 54px;
+  height: 555px;
+}
+
+.my-pic {
+  margin-top: 83px;
+  margin-left: 40px;
+  margin-right: 40px;
+  float: left;
+}
+
+#prologue-section h2 {
+  color: #3E3F43;
+  font-family: Nunito, 'Nunito';
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 49.1px;
+  padding-top: 83px;
+  padding-right: 246px;
+}
+
+#prologue-section h3 {
+  color: #000000;
+  font-family: Nunito, 'Nunito';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32.74px;
+  padding-top: 16px;
+  padding-right: 246px;
+}
+
+/* About Me Section */
+
+#about-me-section p {
+  color: #000000;
+  font-family: Rubik, 'Rubik';
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 419px;
+  line-height: 28.13px;
+}
+
+/* Exercise Section */
+
+#exercises {
+  margin-top: 46px;
+}
+
+.cards-container,
+.your-choice-container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.cards-container div {
+  display: inline-block;
+  border-radius: 30px;
+  height: 260px;
+  width: 200px;
+  margin-right: 24px;
+}
+
+.cards-container div img {
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 96px;
+}
+
+.cards-container a {
+  color: #171F46;
+  font-family: Rubik, 'Rubik';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  background-color: #FFFFFF;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 40px;
+  padding: 8px 39.16px 8px 40.84px;
+}
+
+.cards-container h4 {
+  color: #000000;
+  font-family: Rubik, 'Rubik';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.exercise1 {
+  background-color: #FDEDE5;
+}
+
+.exercise2 {
+  background-color: #EBF1FF;
+}
+
+.exercise3 {
+  background-color: #EBFFEC;
+}
+
+.exercise4 {
+  background-color: #FFEBFC;
+}
+
+.exercise5 {
+  background-color: #FFFEEB;
+}
+
+/* Exercise Hover */
+
+.cards-container a:hover {
+  background-color: #171F46;
+}
+
+.exercise1 a:hover {
+  color: #FDEDE5;
+}
+
+.exercise2 a:hover {
+  color: #EBF1FF;
+}
+
+.exercise3 a:hover {
+  color: #EBFFEC;
+}
+
+.exercise4 a:hover {
+  color: #FFEBFC;
+}
+
+.exercise5 a:hover {
+  color: #FFFEEB;
+}
+
+/* Program Language Section */
+
+#prog-lag-section {
+  margin-top: 16px;
+}
+
+#prog-lag-section li {
+  color: #000000;
+  font-family: Rubik, 'Rubik';
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28.13px;
+  margin-left: 24px;
+}
+
+/* Your Choice Section */
+
+#your-choice-section {
+  margin-top: 16px;
+}
+
+.bg-details {
+  background-color: #F9BDBD;
+  margin: 0px 40px 271px 0px;
+  height: 508px;
+}
+
+.your-choice-container div {
+  border-radius: 30px;
+  height: 428px;
+  width: 325px;
+}
+
+.your-choice-container img {
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+.your-choice-container h4 {
+  color: #000000;
+  font-family: Rubik, 'Rubik';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 24px;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-image: url(../images/footerimg.png);
+  height: 301px;
+}
+
+#footer-title {
+  color: #333333;
+  font-family: Nunito, 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 40px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+footer li {
+  color: #8D8D8D;
+  font-family: Nunito, 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.1px;
+  padding-bottom: 16px;
+}
+
+footer a {
+  color: #8D8D8D;
+  font-family: Nunito, 'Nunito';
+  font-style: normal;
+}
+
+footer div {
+  color: #8D8D8D;
+  font-family: Nunito, 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 40px;
+  margin-top: 70px;
+}
