@@ -247,20 +247,19 @@ a {
 }
 
 .your-choice-container img {
-  align-items: center;
-  margin-top: 100px;
-  margin-left: 20px;
+  display: block;
+  margin: 100px auto 0px;
   border-radius: 30px;
 }
 
 .your-choice-container h4 {
   color: #000000;
+  text-align: center;
   font-family: Rubik, 'Rubik';
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   margin: 24px;
-  text-align: center;
 }
 
 /* Footer */
